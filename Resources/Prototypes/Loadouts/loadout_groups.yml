@@ -950,6 +950,7 @@
   loadouts:
   - HeadofSecurityHead
   - HeadofSecurityBeret
+  - HoSWidebrimHarmony # Harmony
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit

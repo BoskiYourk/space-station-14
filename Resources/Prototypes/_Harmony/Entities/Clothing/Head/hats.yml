@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingHeadBase, BaseCommandContraband]
+  id: ClothingHeadHatHoSWidebrimHarmony
+  name: head of security's widebrim hat
+  description: The robust standard-issue widebrim hat of the Head of Security. For showing the officers who's in charge.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/Head/Hats/hoswidebrimhat.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/Head/Hats/hoswidebrimhat.rsi

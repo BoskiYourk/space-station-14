@@ -3,3 +3,9 @@
   id: JumpsuitHoSBlue
   equipment: 
     jumpsuit: ClothingUniformJumpsuitHoSBlue
+
+# Hats
+- type: loadout
+  id: HoSWidebrimHarmony
+  equipment:
+    hat: ClothingHeadHatHoSWidebrimHarmony

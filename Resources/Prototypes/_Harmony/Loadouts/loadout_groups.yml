@@ -5,3 +5,10 @@
   loadouts:
   - BrownShoes
   - HoPLeatherShoesHarmony
+
+# Command
+- type: loudoutGroup
+  id: HeadofSecurityHeadHarmony
+  name: loadout-group-head-of-security-head
+  loudouts:
+  - HoSWidebrimHarmony

@@ -1,11 +1,11 @@
 - type: entity
-  name: makeshift laser pistol HARMONY
+  name: lp 67
   parent: BaseWeaponBatterySmall
   id: WeaponMakeshiftLaserHarmony
   description: Better pray it won't burn your hands off.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Battery/securitylaser.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -12,7 +12,7 @@
     whitelist:
       tags:
         - CartridgePistol
-    capacity: 10
+    capacity: 15 # Harmony Change: Increased the .35 Auto Pistol Mag Size from 10 to 15
   - type: Item
     size: Small
   - type: ContainerContainer

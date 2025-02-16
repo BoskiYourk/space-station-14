@@ -1,0 +1,36 @@
+- type: entity
+  id: BulletGrenadeShrapnelHarmony
+  name: shrapnel grenade
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+      - state: grenade
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: .25
+    intensitySlope: .25
+    maxIntensity: .25
+  - type: ProjectileGrenade
+    fillPrototype: PelletClusterLethal
+    capacity: 10
+
+- type: entity
+  id: BulletGrenadeDemolitionHarmony
+  name: demolition grenade
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+      - state: grenade
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: DemolitionCharge
+    totalIntensity: 60
+    intensitySlope: 5
+    maxIntensity: 30

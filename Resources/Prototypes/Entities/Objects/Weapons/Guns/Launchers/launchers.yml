@@ -36,6 +36,7 @@
     slots:
     - Back
     - suitStorage
+  - type: GunRequiresWield # Harmony Change: All pump based guns require being weilded, so why doesn't this one?
   - type: AmmoCounter
   - type: Gun
     fireRate: 1

@@ -12,6 +12,17 @@
     damage:
       types:
         Blunt: 25
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 10
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 50
+  - type: EmitSoundOnLand
+    sound:
+      collection: MetalBreak
     soundHit:
       path: "/Audio/Weapons/smash.ogg"
   - type: HeldSpeedModifier
@@ -33,6 +44,17 @@
       types:
         Blunt: 30
         Shock: 5
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 15
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 25
+  - type: EmitSoundOnLand
+    sound:
+      collection: MetalBreak
     soundHit:
       path: "/Audio/Weapons/smash.ogg"
 

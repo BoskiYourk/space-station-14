@@ -15,3 +15,6 @@ uplink-cluster-weh-desc = Scatters 10 lizard plushies in a circle after a short 
 
 uplink-hyposhell-name = Box of hyposhells
 uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that can hold 7u of any chemical.
+
+uplink-fire-axe-name = Fire Axe
+uplink-fire-axe-desc = A fire axe that actually sets your targets on fire.

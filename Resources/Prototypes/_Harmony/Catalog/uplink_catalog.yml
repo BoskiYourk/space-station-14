@@ -1,4 +1,17 @@
 # Guns
+- type: listing
+  id: UplinkFireAxeHarmony
+  name: uplink-fire-axe-name
+  description: uplink-fire-axe-desc
+  icon: { sprite: Objects/Weapons/Melee/fireaxeflaming.rsi, state: icon }
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 3
+  productEntity: FireAxeFlaming
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkWeaponry
 # Explosives
 - type: listing
   id: UplinkPizzaBomb
@@ -67,6 +80,25 @@
     Telecrystal: 4
   categories:
   - UplinkWearables
+
+- type: listing
+  id: UplinkClothingOuterArmorRaidAgentHarmony
+  name: uplink-syndie-raid-name
+  description: uplink-syndie-raid-desc
+  icon: { sprite: /Textures/Clothing/OuterClothing/Armor/syndie-raid.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateRaidBundle
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 6
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkWearables
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
 # Pointless
 - type: listing
   id: UplinkClusterWeh

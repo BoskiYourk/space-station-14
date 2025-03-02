@@ -64,7 +64,8 @@
     sprite: Objects/Weapons/Melee/fireaxeflaming.rsi
     state: icon
   - type: Clothing
-    sprite: Objects/Weapons/Melee/fireaxeflaming.rsi
+    sprite: _Harmony/Objects/Weapons/Melee/fireaxeflaming.rsi #Harmony Change: Moves the fire axe's worn sprites to the Harmony namescape to give it a suit storage sprite
     quickEquip: false
     slots:
     - back
+    - suitstorage

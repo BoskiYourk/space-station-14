@@ -166,9 +166,11 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledSMG
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 10
+# Start of Harmony Change: Lowers the C20 TC cost and discount cost
+    Telecrystal: 7
   cost:
-    Telecrystal: 17
+    Telecrystal: 14
+# End of Harmony Change
   categories:
   - UplinkWeaponry
 
@@ -180,9 +182,11 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledShotgun
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 12
+# Start of Harmony Change: Lowers the Bulldog TC cost and discount cost
+    Telecrystal: 9
   cost:
-    Telecrystal: 20
+    Telecrystal: 18
+# End of Harmony Change
   categories:
   - UplinkWeaponry
 
@@ -1097,6 +1101,12 @@
     Telecrystal: 12
   categories:
     - UplinkDisruption
+# Start of Harmony Change: Adds the singularity beacon to the suprlus blacklist
+    - !type:BuyerWhitelistCondition
+      blacklist:
+        components:
+        - SurplusBundle
+# End of Harmony Change
 
 - type: listing
   id: UplinkCameraBug

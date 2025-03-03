@@ -23,8 +23,8 @@
   - type: EmitSoundOnLand
     sound:
       collection: MetalBreak
-    soundHit:
-      path: "/Audio/Weapons/smash.ogg"
+      params:
+        variation: 0.25
   - type: HeldSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.85
@@ -55,6 +55,5 @@
   - type: EmitSoundOnLand
     sound:
       collection: MetalBreak
-    soundHit:
-      path: "/Audio/Weapons/smash.ogg"
-
+      params:
+        variation: 0.25

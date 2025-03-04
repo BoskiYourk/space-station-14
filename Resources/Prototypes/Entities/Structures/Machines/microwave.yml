@@ -1,5 +1,8 @@
 - type: entity
-  id: KitchenMicrowaveUpstream # Harmony Change: Updates ID to be used as a parent
+# Start of Harmony Change: Updates ID to be used as a parent and adds upstream suffix
+  id: KitchenMicrowaveUpstream
+  suffix: Upstream
+# End of Harmony Change
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   name: microwave
   categories: [ HideSpawnMenu ] # Harmony
@@ -109,7 +112,10 @@
     - FoodRecipes
 
 - type: entity
-  id: SyndicateMicrowaveUpstream # Harmony Change: Updates ID to be used as a parent
+# Start of Harmony Change: Updates ID to be used as a parent and adds upstream suffix
+  id: SyndicateMicrowaveUpstream
+  suffix: Upstream
+# End of Harmony Change
   parent: KitchenMicrowave
   name: donk co. microwave
   categories: [ HideSpawnMenu ] # Harmony

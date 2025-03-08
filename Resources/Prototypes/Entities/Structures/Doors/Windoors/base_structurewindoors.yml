@@ -25,7 +25,7 @@
         layer:
         - GlassAirlockLayer
   - type: Sprite
-    sprite: Structures/Doors/Windoors/windoor.rsi
+    sprite: _Harmony/Structures/Doors/Windoors/windoor.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -174,7 +174,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/windoor.rsi
+    sprite: _Harmony/Structures/Doors/Windoors/windoor.rsi
     layers:
     - state: secure_underlay
     - state: closed
@@ -246,7 +246,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/plasma.rsi
+    sprite: _Harmony/Structures/Doors/Windoors/plasma.rsi
     layers:
     - state: closed
       map: [ "enum.DoorVisualLayers.Base" ]
@@ -311,7 +311,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/plasma.rsi
+    sprite: _Harmony/Structures/Doors/Windoors/plasma.rsi
     layers:
     - state: secure_underlay
     - state: closed
@@ -383,7 +383,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/uranium.rsi
+    sprite: _Harmony/Structures/Doors/Windoors/uranium.rsi
     layers:
     - state: closed
       map: [ "enum.DoorVisualLayers.Base" ]
@@ -448,7 +448,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/uranium.rsi
+    sprite: _Harmony/Structures/Doors/Windoors/uranium.rsi
     layers:
     - state: secure_underlay
     - state: closed

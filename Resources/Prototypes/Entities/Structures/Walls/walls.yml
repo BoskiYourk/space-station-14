@@ -453,9 +453,9 @@
       tags:
         - Wall
     - type: Sprite
-      sprite: Structures/Walls/plastitanium.rsi
+      sprite: _Harmony/Structures/Walls/plastitanium.rsi
     - type: Icon
-      sprite: Structures/Walls/plastitanium.rsi
+      sprite: _Harmony/Structures/Walls/plastitanium.rsi
     - type: IconSmooth
       key: walls
       base: plastitanium
@@ -495,14 +495,14 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: IconSmooth
     mode: Diagonal
     key: walls
     base: state
   - type: Icon
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: Destructible
     thresholds:
@@ -546,14 +546,14 @@
     - Diagonal    
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: IconSmooth
     mode: Diagonal
     key: walls
     base: state
   - type: Icon
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/plastitanium_diagonal.rsi
     state: state0
   - type: Physics
     bodyType: Static
@@ -582,9 +582,9 @@
   name: reinforced wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Harmony/Structures/Walls/solid.rsi
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Harmony/Structures/Walls/solid.rsi
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -641,9 +641,9 @@
   suffix: rusted
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _Harmony/Structures/Walls/solid_rust.rsi
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _Harmony/Structures/Walls/solid_rust.rsi
     state: rgeneric
   - type: Construction
     graph: Girder
@@ -690,14 +690,14 @@
     - Diagonal
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/reinforced_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/reinforced_diagonal.rsi
     state: state0
   - type: IconSmooth
     mode: Diagonal
     key: walls
     base: state
   - type: Icon
-    sprite: Structures/Walls/reinforced_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/reinforced_diagonal.rsi
     state: state0
 
 # Riveting
@@ -1012,13 +1012,13 @@
     tags:
       - Wall
   - type: Sprite
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Harmony/Structures/Walls/solid.rsi
   - type: WallReplacementMarker
   - type: Construction
     graph: Girder
     node: wall
   - type: Icon
-    sprite: Structures/Walls/solid.rsi
+    sprite: _Harmony/Structures/Walls/solid.rsi
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -1061,14 +1061,14 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: Structures/Walls/solid_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/solid_diagonal.rsi
     state: state0
   - type: IconSmooth
     mode: Diagonal
     key: walls
     base: state
   - type: Icon
-    sprite: Structures/Walls/solid_diagonal.rsi
+    sprite: _Harmony/Structures/Walls/solid_diagonal.rsi
     state: state0
 
 - type: entity
@@ -1077,9 +1077,9 @@
   suffix: rusted
   components:
   - type: Sprite
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _Harmony/Structures/Walls/solid_rust.rsi
   - type: Icon
-    sprite: Structures/Walls/solid_rust.rsi
+    sprite: _Harmony/Structures/Walls/solid_rust.rsi
     state: full
   - type: Construction
     graph: Girder

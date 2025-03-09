@@ -127,7 +127,7 @@
     - Diagonal
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls # Harmony Change: Makes walls and windows connect to eachother.
     base: state
   - type: Icon
     sprite: _Harmony/Structures/Windows/plasma_diagonal.rsi

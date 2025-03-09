@@ -72,7 +72,7 @@
         acts: [ "Destruction" ]
   - type: Airtight
   - type: IconSmooth
-    key: windows
+    key: walls # Harmony Change: Makes walls and windows connect to eachother.
     base: window
   - type: InteractionPopup
     interactSuccessString: comp-window-knock

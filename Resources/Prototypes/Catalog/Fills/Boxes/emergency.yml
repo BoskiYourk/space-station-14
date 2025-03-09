@@ -96,7 +96,7 @@
     - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
-    - state: internals
+    - state: box_security # Harmony Change: Updates box sprite pathing location
     - state: emergencytank
 
 - type: entity
@@ -114,7 +114,7 @@
     - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
-    - state: internals
+    - state: box_security # Harmony Change: Updates box sprite pathing location
     - state: nitrogentank
   - type: Label
     currentLabel: reagent-name-nitrogen

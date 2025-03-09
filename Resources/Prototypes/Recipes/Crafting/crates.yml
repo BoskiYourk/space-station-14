@@ -72,7 +72,7 @@
   targetNode: boxcardboard
   category: construction-category-storage
   description: A small box for storing things.
-  icon: { sprite: Objects/Storage/boxes.rsi, state: box }
+  icon: { sprite: _Harmony/Objects/Storage/boxes.rsi, state: box } # Harmony Change: Updates box sprite pathing location
   objectType: Item
 
 - type: construction

@@ -68,6 +68,12 @@
             "name": "box_science"
         },
         {
+            "name": "box_janitorial"
+        },
+        {
+            "name": "box_engineering"
+        },
+        {
             "name": "box_olive"
         },
         {
@@ -235,6 +241,9 @@
         },
         {
             "name": "recorder"
+        },
+        {
+            "name": "cleanade"
         }
     ]
 }

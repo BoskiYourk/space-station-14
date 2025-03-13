@@ -116,7 +116,6 @@
   loadouts:
   - CaptainHead
   - CaptainCap
-  - BeretCaptainHarmony # Harmony
 
 - type: loadoutGroup
   id: CaptainJumpsuit
@@ -128,7 +127,6 @@
   - CaptainFormalSkirt
   - CaptainJumpsuitTurtleneckHarmony #Harmony
   - CaptainJumpskirtTurtleneckHarmony #Harmony
-  - CaptainHawaiianHarmony # Harmony
 
 - type: loadoutGroup
   id: CaptainNeck

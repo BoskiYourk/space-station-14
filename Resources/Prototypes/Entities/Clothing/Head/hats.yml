@@ -42,7 +42,6 @@
     - ClothMade
     - WhitelistChameleon
 
-#Harmony Change: Updated Pathing for security resprite update
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSecurity
@@ -50,9 +49,9 @@
   description: A stylish clothing option for security officers.
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Head/Hats/beret_security.rsi
+    sprite: Clothing/Head/Hats/beret_security.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Head/Hats/beret_security.rsi
+    sprite: Clothing/Head/Hats/beret_security.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -299,11 +298,10 @@
   name: brown fedora
   description: It's a brown fedora.
   components:
-  # Harmony Change: Sprites updated for use in detective clothing update
   - type: Sprite
-    sprite: _Harmony/Clothing/Head/Hats/brownfedora.rsi
+    sprite: Clothing/Head/Hats/brownfedora.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Head/Hats/brownfedora.rsi
+    sprite: Clothing/Head/Hats/brownfedora.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -316,11 +314,10 @@
   name: grey fedora
   description: It's a grey fedora.
   components:
-  # Harmony Change: Sprites updated for us in detective clothing update
   - type: Sprite
-    sprite: _Harmony/Clothing/Head/Hats/greyfedora.rsi
+    sprite: Clothing/Head/Hats/greyfedora.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Head/Hats/greyfedora.rsi
+    sprite: Clothing/Head/Hats/greyfedora.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -555,7 +552,6 @@
   - type: Clothing
     sprite: Clothing/Head/Hats/violetwizard.rsi
 
-#Harmony Change: Updated Pathing for security resprite update
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWarden
@@ -563,9 +559,9 @@
   description: A police officer's Hat. This hat emphasizes that you are THE LAW
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Head/Hats/warden.rsi
+    sprite: Clothing/Head/Hats/warden.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Head/Hats/warden.rsi
+    sprite: Clothing/Head/Hats/warden.rsi
   - type: StealTarget
     stealGroup: ClothingHeadHatWarden
 

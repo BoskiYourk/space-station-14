@@ -976,8 +976,6 @@
   loadouts:
   - HeadofSecurityHead
   - HeadofSecurityBeret
-  - HoSWidebrimHarmony # Harmony
-  - HoSSoftHarmony # Harmony
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -985,14 +983,8 @@
   loadouts:
   - HeadofSecurityJumpsuit
   - HeadofSecurityJumpskirt
-  - JumpsuitHoSBlueHarmony # Harmony
-  - JumpsuitHoSGrey # Harmony
-  - JumpsuitHoSTurtleNeckHarmony # Harmony
-  - JumpskirtHoSTurtleNeckHarmony # Harmony
-# - HeadofSecurityTurtleneck
-# - HeadofSecurityTurtleneckSkirt
-  - HeadofSecurityAssaultSuit # Harmony
-  - HeadofSecurityAssaultSkirt # Harmony
+  - HeadofSecurityTurtleneck
+  - HeadofSecurityTurtleneckSkirt
   - HeadofSecurityFormalSuit
   - HeadofSecurityFormalSkirt
 
@@ -1025,7 +1017,6 @@
   loadouts:
   - WardenJumpsuit
   - WardenJumpskirt
-  - WardenBlueSuitHarmony # Harmony
 
 - type: loadoutGroup
   id: WardenOuterClothing
@@ -1044,9 +1035,6 @@
   - SecurityHat
   - TrooperHat
   - SecurityBandanaHarmony # Harmony
-  - SecurityBlueCapHarmony # Harmony
-  - SeniorOfficerBeretHarmony # Harmony
-  - SecurityBlueBeretHarmony # Harmony
 
 - type: loadoutGroup
   id: SecurityJumpsuit
@@ -1059,7 +1047,6 @@
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
   - TrooperUniform
-  - JumpsuitSecBlue # Harmony
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1105,7 +1092,6 @@
   loadouts:
   - DetectiveFedora
   - DetectiveFedoraGrey
-  - DetectiveFedoraBlueHarmony # Harmony
 
 - type: loadoutGroup
   id: DetectiveNeck
@@ -1122,7 +1108,6 @@
   - DetectiveJumpskirt
   - NoirJumpsuit
   - NoirJumpskirt
-  - DetectiveBlueSuitHarmony # Harmony
 
 - type: loadoutGroup
   id: DetectiveOuterClothing
@@ -1131,7 +1116,6 @@
   - DetectiveArmorVest
   - DetectiveCoat
   - DetectiveCoatGrey
-  - DetectiveBlueCoatHarmony # Harmony
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit

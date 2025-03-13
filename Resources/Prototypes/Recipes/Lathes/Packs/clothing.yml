@@ -128,16 +128,6 @@
   - ClothingHeadHatWarden
   - ClothingUniformJumpsuitWarden
   - ClothingUniformJumpskirtWarden
-  - ClothingHeadHatBeretSecurityBlueHarmony # Harmony
-  - ClothingHeadHatBeretSecuritySeniorOfficerHarmony # Harmony
-  - ClothingHeadHatHoSSoftHarmony # Harmony
-  - ClothingHeadHatHoSWidebrimHarmony # Harmony
-  - ClothingHeadHatSecSoftBlueHarmony # Harmony
-  - ClothingUniformJumpsuitDetectiveBlueHarmony # Harmony
-  - ClothingUniformJumpsuitHeadOfSecurityTurtleneckHarmony # Harmony
-  - ClothingUniformJumpskirtHeadOfSecurityTurtleneckHarmony # Harmony
-  - ClothingUniformJumpsuitSecBlueHarmony # Harmony
-  - ClothingUniformJumpsuitWardenBlueHarmony # Harmony
 
 
 - type: latheRecipePack

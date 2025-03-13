@@ -176,7 +176,6 @@
   - type: Clothing
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/hop.rsi # Harmony change. Resprite
 
-#Harmony Change: Updated Pathing for security resprite update
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtHoS
@@ -184,16 +183,29 @@
   description: It's bright red and rather crisp, much like security's victims tend to be.
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/hos.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/hos.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/hos.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/hos.rsi
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpskirt/color.rsi
+      - state: overlay-inhand-left
+        sprite: Clothing/Uniforms/Jumpsuit/hos.rsi
+      right:
+      - state: inhand-right
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpskirt/color.rsi
+      - state: overlay-inhand-right
+        sprite: Clothing/Uniforms/Jumpsuit/hos.rsi
 
-# Harmony Change: Updated Sprite Pathing, Name, and Description for Harmony Security Sprite Fixing Update
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseCommandContraband]
   id: ClothingUniformJumpskirtHoSAlt
-  name: head of security's assault jumpskirt 
-  description: It's an assault suit worn by those strong and disciplined enough to achieve the position of Head of Security.
+  name: head of security's turtleneck
+  description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/hos_alt.rsi
@@ -383,21 +395,47 @@
   description: A jumpskirt made of strong material, providing robust protection.
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/security.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/security.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/security.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/security.rsi
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpskirt/color.rsi
+      - state: overlay-inhand-left
+        sprite: Clothing/Uniforms/Jumpsuit/security.rsi
+      right:
+      - state: inhand-right
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpskirt/color.rsi
+      - state: overlay-inhand-right
 
-#Harmony Change: Updated Pathing and Name for security resprite update
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseRestrictedContraband]
   id: ClothingUniformJumpskirtWarden
-  name: warden's jumpskirt
+  name: warden's uniform
   description: A formal security suit for officers complete with Nanotrasen belt buckle.
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/warden.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/warden.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/warden.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/warden.rsi
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpskirt/color.rsi
+      - state: overlay-inhand-left
+        sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
+      right:
+      - state: inhand-right
+        color: "#C12D30"
+        sprite: Clothing/Uniforms/Jumpskirt/color.rsi
+      - state: overlay-inhand-right
+        sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -645,7 +683,6 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/senior_physician.rsi
 
-#Harmony Change: Updated Pathing for security resprite update
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseRestrictedContraband]
   id: ClothingUniformJumpskirtSeniorOfficer
@@ -653,9 +690,9 @@
   description: A sign of skill and prestige within the security department.
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/senior_officer.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/senior_officer.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Uniforms/Jumpskirt/senior_officer.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/senior_officer.rsi
 
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseRestrictedContraband]

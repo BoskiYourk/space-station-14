@@ -21,15 +21,10 @@
   - ClothingUniformJumpsuitCaptainTurtleneckHarmony
   - ClothingUniformJumpskirtCaptainTurtleneckHarmony
   # Command - HoP
-  - ClothingHeadHatBeretHeadofPersonnelHarmony
   - ClothingUniformJumpsuitHoPMessKitHarmony
   - ClothingUniformJumpskirtHoPMessKitHarmony
   - ClothingUniformJumpsuitTurtleneckHoPHarmony
   - ClothingUniformJumpskirtTurtleneckHoPHarmony
-  # Engineering
-  - ClothingHeadHatBeretChiefEngineerHarmony
-  # Science
-  - ClothingHeadHatBeretResearchDirectorHarmony
   # Security
   - ClothingHeadHatBeretSecurityBlueHarmony
   - ClothingHeadHatBeretSecuritySeniorOfficerHarmony

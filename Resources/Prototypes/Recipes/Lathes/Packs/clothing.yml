@@ -45,7 +45,6 @@
   - ClothingHeadHatHopcap
   - ClothingUniformJumpsuitHoP
   - ClothingUniformJumpskirtHoP
-  - ClothingHeadHatBeretHeadofPersonnelHarmony # Harmony
   - ClothingUniformJumpsuitHoPMessKitHarmony #Harmony
   - ClothingUniformJumpskirtHoPMessKitHarmony #Harmony
   - ClothingUniformJumpsuitTurtleneckHoPHarmony # Harmony
@@ -64,7 +63,6 @@
   - ClothingUniformJumpskirtEngineering
   - ClothingUniformJumpsuitSeniorEngineer
   - ClothingUniformJumpskirtSeniorEngineer
-  - ClothingHeadHatBeretChiefEngineerHarmony # Harmony
 
 - type: latheRecipePack
   id: ClothingMedical
@@ -95,7 +93,6 @@
   - ClothingUniformJumpskirtScientist
   - ClothingUniformJumpsuitSeniorResearcher
   - ClothingUniformJumpskirtSeniorResearcher
-  - ClothingHeadHatBeretResearchDirectorHarmony # Harmony
 
 - type: latheRecipePack
   id: ClothingSecurity

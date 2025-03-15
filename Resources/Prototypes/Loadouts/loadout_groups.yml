@@ -653,7 +653,6 @@
   loadouts:
   - CargoTechnicianHead
   - CargoTechnicianBandanaHarmony # Harmony
-  - SeniorTechnicianBeretHarmony # Harmony change: adds senior tech beret to loadout group
 
 - type: loadoutGroup
   id: CargoTechnicianJumpsuit
